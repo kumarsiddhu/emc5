@@ -1,1 +1,59 @@
-new file  from emc5branch
+import React ,{useState , useEffect} from 'react';
+
+const Datafetch = () => {
+   const [data, setData] = useState(null);
+   const [error,setError] = useState(null);
+
+useEffect(()=>{
+    const fetcData = () => {
+  try{
+       const response = await fetch("url",{
+        Method:put,
+        Header:{
+            --------
+            --------
+        },
+       body: {
+       })
+    if(!response.ok){throw new error(`The new error ${status}`)}
+     const result =await response.json();
+     setData(result);
+       
+   }
+   catch(error){
+
+   }
+
+},[]);
+
+ return(
+
+
+)
+};
+
+export defult Datafetch; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ )
+};
