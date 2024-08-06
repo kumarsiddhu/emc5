@@ -14,7 +14,7 @@ const Datafetch = () => {
             'Authorization': 'Bearer YOUR_ACCESS_TOKEN', // Replace with your token
           },
           body: JSON.stringify({
-            // Replace with your request body
+       
             key1: 'value1',
             key2: 'value2',
           }),
